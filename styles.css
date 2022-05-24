@@ -1,0 +1,54 @@
+h1
+{
+   font-size: 20px;
+   color: hwb(59 2% 16%); 
+}
+ div p 
+ {
+     display: flex;
+     flex-wrap: wrap;
+     width: 40%;
+     height: 100%;
+      padding: 20px;
+      margin: 15px ;
+      background-color: silver;
+      border-radius: 15px;
+      cursor: pointer;
+          color: rgb(24, 24, 4);
+}
+ body div 
+ {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 20px;
+
+   }
+ body
+ { 
+  background-color: rgb(33, 150, 111);
+ }
+
+ body div p:hover 
+ {
+   background-color: rgb(255, 238, 0);
+color: #1b1b0c;
+transition-duration: 0.7s;
+ }
+
+ body span
+ {
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;  
+   background: linear-gradient(#e66465, #9198e5);
+ }
+header div nav
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
