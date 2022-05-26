@@ -1,0 +1,120 @@
+body
+{
+    background-color: rgb(218, 233, 228) ;
+    
+}
+.container
+{
+display: flex;
+flex-wrap: wrap;
+width: 1200px ;
+height: 800px;
+padding: 120px;
+padding-bottom: 100px;
+margin-bottom: 200px;
+margin-left: 50px;
+}
+div .items
+{
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 135px;
+    margin-right: 25px;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+div .box
+{
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 0;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+div .there
+{
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 135px;
+    margin-right: 20px;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+div .hope
+{
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 5px;
+    margin-right: 25px;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 5px;
+
+}
+
+
+div .ispa
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 5px;
+    margin-right: 20px;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 140px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+div .iter
+{
+    background-color: beige;
+    width: 350px;
+    height: 230px;
+    padding: 20px 20px 20px 15px;
+    margin-left: 135px;
+    margin-right: 20px;
+    border-radius: 10px ;
+    border-left-style: solid;
+    border-color: rgb(4, 148, 245);
+    border-width: 10px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+
+}
