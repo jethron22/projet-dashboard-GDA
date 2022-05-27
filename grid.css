@@ -1,120 +1,51 @@
-body
+.container 
 {
-    background-color: rgb(218, 233, 228) ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 20px;
     
-}
-.container
-{
-display: flex;
-flex-wrap: wrap;
-width: 1200px ;
-height: 800px;
-padding: 120px;
-padding-bottom: 100px;
-margin-bottom: 200px;
-margin-left: 50px;
-}
-div .items
-{
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 135px;
-    margin-right: 25px;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    overflow: auto;
-}
-
-div .box
-{
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 0;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    overflow: auto;
-}
-
-div .there
-{
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 135px;
-    margin-right: 20px;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 40px;
-    box-sizing: border-box;
-    overflow: auto;
-
-}
-div .hope
-{
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 5px;
-    margin-right: 25px;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    overflow: auto;
-    margin-top: 5px;
-
-}
-
-
-div .ispa
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 5px;
-    margin-right: 20px;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 140px;
-    box-sizing: border-box;
-    overflow: auto;
-}
-div .iter
-{
-    background-color: beige;
-    width: 350px;
-    height: 230px;
-    padding: 20px 20px 20px 15px;
-    margin-left: 135px;
-    margin-right: 20px;
-    border-radius: 10px ;
-    border-left-style: solid;
-    border-color: rgb(4, 148, 245);
-    border-width: 10px;
-    margin-bottom: 200px;
-    box-sizing: border-box;
-
-}
+    }
+    
+    .iter 
+    { 
+        padding: 20px 20px 20px 15px;
+        grid-area: 2 / 2 / 3 / 3; 
+    }
+    .box 
+    { 
+        padding: 20px 20px 20px 15px;
+        grid-area: 2 / 3 / 3 / 4; 
+    }
+    .ispa {
+        padding: 20px 20px 20px 15px; 
+        grid-area: 2 / 4 / 3 / 5; 
+    }
+    .itemo 
+    { 
+        padding: 20px 20px 20px 15px;
+        grid-area: 3 / 4 / 4 / 5; 
+      }
+    .there 
+    {
+        padding: 20px 20px 20px 15px; 
+        grid-area: 3 / 3 / 4 / 4; }
+    .hope 
+    {
+        padding: 20px 20px 20px 15px; 
+        grid-area: 3 / 2 / 4 / 3; 
+    }
+    .items { 
+        padding: 20px 20px 20px 15px;
+        grid-area: 4 / 2 / 5 / 3;
+     }
+     .container div
+     {
+        background-color: rgb(133, 155, 155);
+        border-radius: 15px;
+        border-left: 10px solid brown;
+     }
+    
+    
