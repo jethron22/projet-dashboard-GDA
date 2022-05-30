@@ -97,7 +97,7 @@
             <div class="card project1">
                 <h4>Super Cool Project</h4>
                 <p class="desc">
-                    Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit fells. Aliquam sed malesuada eros. 
+                    Quisque eget rutrum nisl. Nam augue justo, cursus Aliquam sed malesuada eros. 
                 </p>
                 <div class="reactions">
                     <span class="mdi mdi-star-plus-outline" style="font-size:24px"></span>
@@ -108,7 +108,7 @@
             <div class="card project2">
                 <h4>Less Cool Project</h4>
                 <p class="desc">
-                    NQuisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit fells. Aliquam sed malesuada eros. 
+                    NQuisque eget rutrum nisl. pharetra hendrerit fells. Aliquam sed malesuada eros. 
                 </p>
                 <div class="reactions">
                     <span class="mdi mdi-star-plus-outline" style="font-size:24px"></span>
@@ -119,7 +119,7 @@
             <div class="card project3">
                 <h4>We Build Apps</h4>
                 <p class="desc">
-                    In hac habitasse platea dictumst. Vivamus 1 dictum rutrum arcu, a placerat velit sagittis
+                    In hac habitasse platea dictumst. Vivamus 1 dictum rutrum arcu, a placerat...
                 </p>
                 <div class="reactions">
                     <span class="mdi mdi-star-plus-outline" style="font-size:24px"></span>
@@ -130,7 +130,7 @@
             <div class="card project4">
                 <h4>So Easy to Use</h4>
                 <p class="desc">
-                    Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit fells. Aliquam sed malesuada eros. 
+                    Quisque eget rutrum nisl. Nam augue fells. Aliquam sed malesuada eros. 
                 </p>
                 <div class="reactions">
                     <span class="mdi mdi-star-plus-outline" style="font-size:24px"></span>
@@ -141,7 +141,7 @@
             <div class="card project5">
                 <h4>Ad Blocker</h4>
                 <p class="desc">
-                    Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit fells. Aliquam
+                    Quisque eget rutrum nisl. Nam augue justo, cursus vitaes. Aliquam
                     sed malesuada eros.
                 </p>
                 <div class="reactions">
@@ -153,8 +153,8 @@
             <div class="card project6">
                 <h4>Money Maker</h4>
                 <p class="desc">
-                    Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor
-                    purus sit amet ex. Pellentesque mollis nec sem vel aliquam.
+                    Praesent convallis, bus sapien, ac scelerisque tortor
+                    purus sit amet ex. Pellentesque moem vel aliquam.
                 </p>
                 <div class="reactions">
                     <span class="mdi mdi-star-plus-outline" style="font-size:24px"></span>
@@ -227,8 +227,13 @@
   direction: 'alternate',
   loop: true,
   easing: 'easeInOutSine'
-});;
-  
+});
+anime({
+  targets: '.card',
+  translateX: 20,
+  delay: anime.stagger(300, {easing: 'easeOutQuad'})
+});
+
 
     </script>
 </body>

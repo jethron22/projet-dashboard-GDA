@@ -106,9 +106,10 @@ header {
 }
 
 .boutons>input {
-    background-color: #3b82f6;
+    background-color: #030c8f;
     color:  #fdfcf3;
     height: 30px;
+    margin: 0px;
     width: 80px;
     border: 0px;
     border-radius: 15px;
@@ -118,7 +119,7 @@ header {
 
 input[type=submit]:hover {
     color: #fde50b;
-    border: 1px solid #3b82f6;
+    border: 1px solid #030c8f;
     background-color: white
     font-weight: bold;
 }
@@ -187,11 +188,13 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 30% 30% 30%;
-    grid-column-gap: 20px;
+    grid-column-gap: 15px;
     grid-area: 1 / 1 / 2 / 2;
+    cursor: pointer;
+    
 }
 h4
-{
+{d-row-g
 color: rgb(10, 9, 29);
 }
 
@@ -202,8 +205,13 @@ color: rgb(10, 9, 29);
     background-color: #fff;
     border-left: 10px solid hsl(55, 83%, 9%);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     height: 30vh;
+    width: 47Vh;
+}
+.projects :hover{
+    color: #982b3d;
+    cursor: pointer;
 }
 .card h4{
     grid-area: 1 / 1 / 2 / 3;
